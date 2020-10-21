@@ -1,0 +1,15 @@
+FROM ubuntu:18.04
+
+ENV strings=tran,ngoc,phi,tran,ngoc
+
+RUN apt update\
+    && apt install -y python3.7  python3-pip
+
+COPY . sparse_array/   
+
+RUN /bin/bash -c "cd sparse_array \
+    && pip3 install -r requirements.txt"
+    
+ENTRYPOINT [ "python3" ]
+
+CMD [ "sparse_array/main.py" ]
