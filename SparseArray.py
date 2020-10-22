@@ -33,4 +33,4 @@ class SparseArray:
             return (dictionary)
         
         except Exception as e:
-            return ({"error" : e, "traceback" : traceback.format_exc ()})
+            return ({"error" : str(e.args), "traceback" : str(traceback.format_exc ())})
