@@ -11,7 +11,6 @@ Solve this problem : [Sparse Arrays](https://www.hackerrank.com/challenges/spars
 - strings : environment varaible which is define in Dockerfile. Values format : ab,ac,bc,abc,ac
 - queries : variable define by user when running the code. Values format : ab,ac,bc,d
 
-
 ## Files
 * Dockerfile : to build docker image
 * main.py : main file to run python code, the result is presented with an Flask api using Swagger UI
