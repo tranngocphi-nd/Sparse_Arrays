@@ -23,8 +23,8 @@ Solve this problem : [Sparse Arrays](https://www.hackerrank.com/challenges/spars
 3. ```docker run -p 5000:5000 -t test_mdm```
 4. Use your browser to open : http://localhost:5000/
 5. Follow the steps in the following images :
-!(../master/images/step_1.png)
-!(../master/images/step_2.png)
+![](../master/images/step_1.png)
+![](../master/images/step_2.png)
 
 ## Expected result
 1. If the format of queries is OK
