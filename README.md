@@ -8,12 +8,12 @@
 ## Problem 
 Solve this problem : [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem)
 ##### Argument :
-- strings : environment varaible which is define in Dockerfile. Values format : ab,ac,bc,abc,ac
-- queries : variable define by user when running the code. Values format : ab,ac,bc,d
+- **strings** : environment varaible which is defined in Dockerfile. Values format : ab,ac,bc,abc,ac
+- **queries** : variable defined by user when running the code. Values format : ab,ac,bc,d
 
 ## Files
 * Dockerfile : to build docker image
-* main.py : main file to run python code, the result is presented with an Flask api using Swagger UI
+* main.py : main file to run python code, the result is presented with a Flask api using Swagger UI
 * SparseArray.py : define SparseArray class
 * requirements.txt : all the requirement to set up an environment where python code can run
 
@@ -21,13 +21,15 @@ Solve this problem : [Sparse Arrays](https://www.hackerrank.com/challenges/spars
 1. Open CLI and move to the folder containing all the files.
 2. ```docker build . -t test_mdm```
 3. ```docker run -p 5000:5000 -t test_mdm```
-4. Use your browser to open : http://localhost:5000/
+4. Open : http://localhost:5000/
 5. Follow the steps in the following images :
+
 ![](../master/images/step_1.png)
+
 ![](../master/images/step_2.png)
 
 ## Expected result
-1. If the format of queries is OK
+1. If the format of **queries** is OK
 ```
 {
   "string": [
