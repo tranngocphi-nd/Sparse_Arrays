@@ -20,8 +20,8 @@ Solve this problem : [Sparse Arrays](https://www.hackerrank.com/challenges/spars
 
 ## How to run
 1. Open CLI and move to the folder containing all the files.
-2. docker build . -t test_mdm
-3. docker run -p 5000:5000 -t test_mdm
+2. ```docker build . -t test_mdm```
+3. ```docker run -p 5000:5000 -t test_mdm```
 4. Use your browser to open : http://localhost:5000/
 5. Follow the steps in the following images :
 ![Alt text](/image/step_1.png?raw=true)
