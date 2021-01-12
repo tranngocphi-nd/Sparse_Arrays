@@ -1,4 +1,4 @@
-# Technical test : Maison du Monde
+# Technical test
 
 ## Requirements to run code
 - Docker
